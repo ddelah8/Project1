@@ -1,0 +1,27 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package binarysearchtree4;
+
+/**
+ *
+ * @author derek
+ */
+
+
+public interface BinarySearchTree4Interface<E extends Comparable> 
+{
+    int size();
+    boolean isEmpty(); 
+    void insertItem(E item);
+    boolean inTree(E item); 
+    void removeItem(E item); 
+    E retrieve(E item) throws Exception; 
+    void printTreeInOrder(); 
+    void printTreeInPreOrder(); 
+    void printTreeInPostOrder();
+} 
+    
+
